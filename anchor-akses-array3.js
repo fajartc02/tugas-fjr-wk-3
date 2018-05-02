@@ -52,11 +52,13 @@ function dataHandling2(input) {
     var splitArr1 = splitArr.sort(function(value1, value2){return parseInt(value1) < parseInt(value2)}) // dari string menjadi integer
     console.log(splitArr1)
     console.log(splitArr2)
-    var sliceArr2 = arr.slice(1, 2) +''
-    var splitArr3 = sliceArr2.split('')
-    var sliceArr3 = splitArr3.slice(0, 15).join('')
+    var name = arr[1].slice(0,15)
+    console.log(name)
+    // var sliceArr2 = arr.slice(1, 2) + ''
+    // var splitArr3 = sliceArr2.split('')
+    // var sliceArr3 = splitArr3.slice(0, 15).join('')
 
-    console.log(sliceArr3)
+    // console.log(sliceArr3)
     // var subStrArr = sliceArr2.substr(0, 15)
     // console.log(subStrArr)
 }

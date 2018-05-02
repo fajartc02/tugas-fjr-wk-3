@@ -49,7 +49,7 @@ function dataHandling2(input) {
     // console.log(splitArr)
     // var arr2 = splitArr + ''
     var splitArr2 = splitArr.join('-')
-    var splitArr1 = splitArr.sort(function(value1, value2){return value1 < value2})
+    var splitArr1 = splitArr.sort(function(value1, value2){return parseInt(value1) < parseInt(value2)}) // dari string menjadi integer
     console.log(splitArr1)
     console.log(splitArr2)
     var sliceArr2 = arr.slice(1, 2) +''

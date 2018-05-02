@@ -8,7 +8,7 @@ function palindrome(kata) {
     }
     container2 = ''
     for (var j = lengKata; j >= 0; j--){
-        container2 = container2 + kata[j]
+        var container2 = container2 + kata[j]
     }
     if ( container === container2) {
         state = true;

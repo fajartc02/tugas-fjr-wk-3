@@ -1,7 +1,7 @@
 function cariMean(arr) {
     var total = 0;
     for (var i = 0; i < arr.length; i++) {
-        total += arr[i];
+        total += arr[i];//sudah integer
     }
     var hasil = total / arr.length;
     var bulatNum = Math.round(hasil)

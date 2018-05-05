@@ -12,7 +12,7 @@ function mengelompokkanAngka(arr) {
       } else if (arr[i] % 3 === 0) { // conditional angka yang habis dibagi 3
         containArr3.push(arr[i])
       }
-      // console.log(arr[i])
+      // console.log(arr[i])   
     }
     totalArr.push(containArr1, containArr2, containArr3)
       // console.log(containArr1)

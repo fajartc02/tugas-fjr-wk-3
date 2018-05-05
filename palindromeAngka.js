@@ -1,11 +1,5 @@
 function angkaPalindrome(num) {
     // you can only write your code here!
-        for(var i = 0; i <= num; i++) {
-            if (i <= 9) {
-                i 
-                
-            }
-        }
   }
   
   // TEST CASES

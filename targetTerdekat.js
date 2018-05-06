@@ -2,8 +2,8 @@ function targetTerdekat(arr) {
     // you can only write your code here!
     var indexO;
     var indexX = [];
-    var lengArr = arr.length - 1;
-    for (var i = 0; i <= lengArr; i++) {
+    var lengArr = arr.length
+    for (var i = 0; i < lengArr; i++) {
       var arrBaru = arr[i];
       // console.log(arrBaru);
       if (arrBaru === 'o') {

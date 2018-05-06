@@ -1,14 +1,14 @@
 function perkalianUnik(arr) {
   // you can only write your code here!
-  var lengArr = arr.length - 1
+  var lengArr = arr.length
   var hasilKali = [];
-  for (var i = 0; i <= lengArr; i++) {
+  for (var i = 0; i < lengArr; i++) {
     //mengambil array baru menggunakan slice
     var arrBaru = arr.slice() 
     var spliceArr = arrBaru.splice(i, 1)
     var numArr = Number(spliceArr);
   var hasil = 1 // disimpan di luar looping bawah agar tidak di kosongkan lagi oleh looping
-    for (var j = 0; j <= arrBaru.length - 1; j++) {
+    for (var j = 0; j < arrBaru.length; j++) {
       //array menggunakan []
       hasil *= arrBaru[j] 
     }

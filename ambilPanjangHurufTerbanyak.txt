@@ -1,0 +1,23 @@
+var kata = 'i miss youth'
+var splitKata = kata.split(' ')
+// console.log(splitKata)
+var arrBaru = []
+for (var i = 0; i < splitKata.length; i++) {
+  var lengArr = splitKata[i].length
+  // var 
+  arrBaru.push(lengArr)
+  // if ( arrBaru. == 0)
+}
+arrBaru.sort(function(a, b) {
+  return a < b
+})
+arrBaru[0]
+// console.log(arrBaru[0])
+// console.log(splitKata)
+for (var j = 0; j < splitKata.length; j++) {
+  var arrBaru1 = splitKata[j]
+  // console.log(arrBaru1)
+  if (arrBaru1.length == arrBaru[0]) {
+    console.log(arrBaru1)
+  }
+}

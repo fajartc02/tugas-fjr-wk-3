@@ -29,7 +29,7 @@ function targetTerdekat(arr) {
     containArr.sort(function (a, b){
       return a > b;
     })
-    // console.log(containArr)
+    console.log(containArr)
     // var arr1 = Number(containArr);
     // console.log(arr1)
     // statement for return value of jarak X to O

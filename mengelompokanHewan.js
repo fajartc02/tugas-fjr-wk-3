@@ -32,19 +32,10 @@ function groupAnimals(animals) {
   }
   // statement for check animals index[0] with container character 
   for (var l = 0; l < animals.length; l++) {
-    if (animals[l][0] == container[l]) {
-      var inspector = animals[l]
-      containerAnimals[l].push(animals[l])
-     }
-    if (animals[l][0] != animals[l]) {
-      for (var m = 1; m< animals.length - 1; m++) {
-        if (animals[l][0] == container[l-m]) {
-          containerAnimals[l-m].push(animals[l])
-        }else if (animals[l][0] == container[l-m]){
-          containerAnimals[l-m].push(animals[l])
-        } else if (animals[l][0] == container[l-m]) {
-          containerAnimals[l-m].push(animals[l])
-        }
+    for (var m = 0; m< animals.length - 1; m++) {
+      if (animals[l][0] == container[m]) {
+        containerAnimals[m].push(animals[l])
+      // console.log(containerAnimals[l-m])
       }
     }
   }
